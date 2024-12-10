@@ -1,10 +1,12 @@
 import React from "react";
-import ProfilePicture from "./Images/ProfilePicture.png";
+// import ProfilePicture from "./Images/ProfilePicture.png";
+import profile from "./Images/profile.JPG";
 import Typing from "react-typing-effect";
 
 const Portfolio = () => {
   const services = [
     "Web Developer",
+    "Frontend Design",
     "Frontend Developer",
     "Backend Developer",
     "Full Stack Developer",
@@ -15,12 +17,12 @@ const Portfolio = () => {
   return (
     <div id="#" className="relative flex flex-col items-center justify-center ">
       <img
-        className="mx-auto  bg-cover  w-full  h-fit mt-20"
-        src={ProfilePicture}
+        className="mx-auto  bg-cover  w-full mt-20"
+        src={profile}
         alt="Muhammad Ahsan"
       />
       <div className="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-big h-big text-indigo-600 rounded-full -z-10"></div>
-      <div className="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl mt-24 md:left-1/4 md:text-6xl lg:left-5 xl:left-35 xl:text-7xl font-bold">
+      <div className="absolute top-2/3 left-5 text-xl sm:left-10 sm:text-4xl mt-24 md:left-1/4 md:text-6xl lg:left-5 xl:left-35 xl:text-7xl font-bold">
         <span className="text-black">Muhammad Ahsan</span>
         <br />
         <Typing
